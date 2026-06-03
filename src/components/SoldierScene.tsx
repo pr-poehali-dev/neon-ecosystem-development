@@ -21,7 +21,7 @@ export const SoldierScene = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 overflow-hidden bg-black">
+    <div className="absolute inset-0 overflow-hidden" style={{ background: "linear-gradient(to bottom, #87CEEB 0%, #b8e4f9 40%, #d4f1ff 70%, #e8f8ff 100%)" }}>
       {/* Реалистичное фото-фон с параллаксом */}
       <div
         ref={bgRef}
