@@ -16,7 +16,7 @@ export function Heroes() {
       className="relative py-24 px-4"
       style={{ backgroundImage: `url(${BG})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
-      <div className="absolute inset-0 bg-black/72" />
+      <div className="absolute inset-0 bg-black/45" />
 
       <div className="container mx-auto relative z-10">
         {/* Заголовок */}
