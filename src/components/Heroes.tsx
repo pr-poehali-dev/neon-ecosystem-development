@@ -2,20 +2,20 @@ const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafa
 
 const heroes = [
   {
-    name: "Стогниенко Сергей Александрович",
-    years: "28.02.1976 — 11.05.2024",
-    rank: "Старший лейтенант, командир взвода штурмовой роты",
-    region: "",
-    description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c8fb5624-edcf-4eba-979b-d66d99fd4e4e.PNG",
-  },
-  {
     name: "Пронин Сергей Дмитриевич",
     years: "25.12.2001 — 02.12.2023",
     rank: "Разведчик-оператор глубинной разведки, рядовой",
     region: "",
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/2608941b-e0d3-40e1-bc1b-96a2ddf86025.PNG",
+  },
+  {
+    name: "Стогниенко Сергей Александрович",
+    years: "28.02.1976 — 11.05.2024",
+    rank: "Старший лейтенант, командир взвода штурмовой роты",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c8fb5624-edcf-4eba-979b-d66d99fd4e4e.PNG",
   },
   {
     name: "Бурнашев Тимур Владимирович",
