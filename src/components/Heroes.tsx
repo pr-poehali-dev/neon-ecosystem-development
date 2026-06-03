@@ -220,11 +220,11 @@ export function Heroes() {
             >
               {/* Фото или заглушка */}
               {hero.photo ? (
-                <div className="w-full h-64 overflow-hidden">
+                <div className="w-full">
                   <img
                     src={hero.photo}
                     alt={hero.name}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
               ) : (
