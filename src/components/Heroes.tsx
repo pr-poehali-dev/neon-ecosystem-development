@@ -121,6 +121,46 @@ const heroes = [
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/07aac6ae-5caa-426a-bdff-faeb8e1b9ab8.PNG",
   },
+  {
+    name: "Стогниенко Сергей Александрович",
+    years: "28.02.1976 — 11.05.2024",
+    rank: "Старший лейтенант, командир взвода штурмовой роты",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c8fb5624-edcf-4eba-979b-d66d99fd4e4e.PNG",
+  },
+  {
+    name: "Терсков Константин Александрович",
+    years: "01.05.1982 — 05.08.2025",
+    rank: "Инженер БПЛА",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/cbe18dd1-4a4e-45bc-b556-83dcc33762d2.PNG",
+  },
+  {
+    name: "Бодров Алексей Максимович",
+    years: "29.10.2003 — 16.03.2024",
+    rank: "Гвардии рядовой",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/084fe638-1997-42da-aa7b-fc51f3d08295.PNG",
+  },
+  {
+    name: "Бромат Денис Игоревич",
+    years: "06.08.1988 — 02.01.2025",
+    rank: "Младший сержант, командир отделения",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/56a57d5d-052a-4692-8921-7a0194ffeb72.PNG",
+  },
+  {
+    name: "Русскин Антон Алексеевич",
+    years: "11.05.2000 — 02.09.2025",
+    rank: "Младший сержант",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/270237f0-43f4-415c-b898-e9f0ecd79398.PNG",
+  },
 ];
 
 export function Heroes() {
