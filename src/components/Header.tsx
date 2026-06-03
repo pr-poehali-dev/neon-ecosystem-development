@@ -9,7 +9,7 @@ export const Header = () => {
           <img
             src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
             alt="Фонд погибших сыновей"
-            className="w-[70px] md:w-[86px] rounded-full drop-shadow-lg"
+            className="w-[90px] md:w-[110px] rounded-full drop-shadow-lg"
           />
         </a>
         <nav className="flex max-lg:hidden absolute left-1/2 -translate-x-1/2 items-center justify-center gap-x-10">
