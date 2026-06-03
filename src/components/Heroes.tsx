@@ -42,12 +42,12 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/6661a143-f767-41a6-8871-a37b13de9105.PNG",
   },
   {
-    name: "Гурин Денис Александрович",
-    years: "12.09.2002 — 15.05.2025",
-    rank: "Гвардии младший сержант",
+    name: "Смоляник Алексей Андреевич",
+    years: "13.08.1996 — 17.07.2024",
+    rank: "Младший сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/e159ddb6-60b9-4a91-90e9-0140e661c4e8.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/07aac6ae-5caa-426a-bdff-faeb8e1b9ab8.PNG",
   },
   {
     name: "Голубев Владимир Владимирович",
@@ -114,12 +114,12 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1e444834-ded5-427f-9215-7887e0a288ae.PNG",
   },
   {
-    name: "Смоляник Алексей Андреевич",
-    years: "13.08.1996 — 17.07.2024",
-    rank: "Младший сержант",
+    name: "Гурин Денис Александрович",
+    years: "12.09.2002 — 15.05.2025",
+    rank: "Гвардии младший сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/07aac6ae-5caa-426a-bdff-faeb8e1b9ab8.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/e159ddb6-60b9-4a91-90e9-0140e661c4e8.PNG",
   },
   {
     name: "Артемьев Сергей Витальевич",
