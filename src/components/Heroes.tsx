@@ -1,5 +1,4 @@
 const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/626a0d29-f22f-4aa4-b11e-425e7a136947.jpg";
-const LOGO = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG";
 
 const heroes = [
   { name: "Александр Иванов", years: "1998 — 2023", region: "Москва", description: "Любил семью, мечтал стать инженером. Навсегда в наших сердцах." },
@@ -20,25 +19,18 @@ export function Heroes() {
       <div className="absolute inset-0 bg-black/72" />
 
       <div className="container mx-auto relative z-10">
-        {/* Шапка: логотип слева + заголовок */}
-        <div className="flex items-center gap-8 mb-16">
-          <img
-            src={LOGO}
-            alt="Фонд погибших сыновей"
-            className="w-32 md:w-44 rounded-full flex-shrink-0 drop-shadow-2xl"
-          />
-          <div className="flex-1 text-center">
-            <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">
-              Помним каждого
-            </p>
-            <h2 className="text-4xl md:text-5xl font-sentient text-white mb-4">
-              Наши <i className="font-light">герои</i>
-            </h2>
-            <p className="font-mono text-sm text-foreground/55 max-w-md mx-auto">
-              Они ушли, но остаются живыми в сердцах своих мам,
-              семей и всех, кто их знал
-            </p>
-          </div>
+        {/* Заголовок */}
+        <div className="text-center mb-16">
+          <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">
+            Помним каждого
+          </p>
+          <h2 className="text-4xl md:text-5xl font-sentient text-white mb-4">
+            Наши <i className="font-light">герои</i>
+          </h2>
+          <p className="font-mono text-sm text-foreground/55 max-w-md mx-auto">
+            Они ушли, но остаются живыми в сердцах своих мам,
+            семей и всех, кто их знал
+          </p>
         </div>
 
         {/* Карточки */}
