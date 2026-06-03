@@ -50,12 +50,12 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/07aac6ae-5caa-426a-bdff-faeb8e1b9ab8.PNG",
   },
   {
-    name: "Голубев Владимир Владимирович",
-    years: "28.02.1985 — 26.12.2024",
-    rank: "Младший сержант, командир орудия",
+    name: "Киклевич Роман Максимович",
+    years: "12.02.1992 — 16.08.2024",
+    rank: "Гвардии рядовой",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/16ba129b-1e11-4c11-ae36-d58a5d2b99ec.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/392ae422-6dba-4255-becc-5a31806b9ee0.PNG",
   },
   {
     name: "Дягтяренко Сергей Николаевич",
@@ -66,12 +66,12 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3839d9f4-b32e-4cf5-9c68-8cb72ae25b85.PNG",
   },
   {
-    name: "Киклевич Роман Максимович",
-    years: "12.02.1992 — 16.08.2024",
-    rank: "Гвардии рядовой",
+    name: "Голубев Владимир Владимирович",
+    years: "28.02.1985 — 26.12.2024",
+    rank: "Младший сержант, командир орудия",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/392ae422-6dba-4255-becc-5a31806b9ee0.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/16ba129b-1e11-4c11-ae36-d58a5d2b99ec.PNG",
   },
   {
     name: "Киселев Юрий Николаевич",
