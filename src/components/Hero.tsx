@@ -10,14 +10,6 @@ export function Hero() {
   return (
     <div className="flex flex-col h-svh justify-between relative z-10">
       <SoldierScene />
-      {/* Логотип в левом верхнем углу */}
-      <a href="/" className="fixed top-6 left-6 md:top-8 md:left-8 z-50">
-        <img
-          src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
-          alt="Фонд погибших сыновей"
-          className="w-[90px] md:w-[120px] rounded-full drop-shadow-2xl"
-        />
-      </a>
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
