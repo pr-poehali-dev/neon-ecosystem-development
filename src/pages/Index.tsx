@@ -1,6 +1,7 @@
 import { Hero } from "@/components/Hero";
 import { Heroes } from "@/components/Heroes";
 import { Humanitarian } from "@/components/Humanitarian";
+import { Events } from "@/components/Events";
 import { JoinForm } from "@/components/JoinForm";
 
 export default function Index() {
@@ -9,6 +10,7 @@ export default function Index() {
       <Hero />
       <Heroes />
       <Humanitarian />
+      <Events />
       <JoinForm />
     </>
   );
