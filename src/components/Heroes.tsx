@@ -185,6 +185,38 @@ const heroes = [
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/731782e7-e742-4be5-83e2-4623c66c6663.PNG",
   },
+  {
+    name: "Кравченко Игорь Михайлович",
+    years: "01.12.1981 — 13.01.2025",
+    rank: "Рядовой",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/0412c713-12fc-4f3b-957c-b89f621ed73b.PNG",
+  },
+  {
+    name: "Пимонов Василий Юрьевич",
+    years: "31.12.1988 — 20.09.2025",
+    rank: "Гвардии старшина, механик-водитель второго расчёта",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c1297efe-7422-46f6-a44f-52024ef7bc2a.PNG",
+  },
+  {
+    name: "Гурдыган Александр Сергеевич",
+    years: "21.02.1987 — 03.09.2025",
+    rank: "Рядовой, командир отделения",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/755bf00b-2b8d-4b3b-aad9-da92c5af5541.PNG",
+  },
+  {
+    name: "Шапран Алексей Александрович",
+    years: "27.05.1980 — 17.11.2024",
+    rank: "Младший сержант",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/cf75b8d2-1c2b-48f1-96ae-fc0f03d9f598.PNG",
+  },
 ];
 
 export function Heroes() {
