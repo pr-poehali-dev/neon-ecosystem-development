@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/626a0d29-f22f-4aa4-b11e-425e7a136947.jpg";
+const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/4aa0a53d-6c7b-4708-b4d1-32d0ee7800a6.jpg";
 
 export function JoinForm() {
   const [sent, setSent] = useState(false);
