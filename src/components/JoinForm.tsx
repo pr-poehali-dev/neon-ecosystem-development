@@ -28,7 +28,7 @@ export function JoinForm() {
       className="relative py-24 px-4"
       style={{ backgroundImage: `url(${BG})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
-      <div className="absolute inset-0 bg-black/75" />
+      <div className="absolute inset-0 bg-black/90" />
 
       <div className="container mx-auto relative z-10 max-w-2xl">
         <div className="text-center mb-12">
