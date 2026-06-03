@@ -44,10 +44,11 @@ const typeColors: Record<string, string> = {
 
 export function Events() {
   return (
-    <section id="events" className="relative py-24 px-4 bg-black">
+    <section id="events" className="relative py-24 px-4" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/7819fe0a-b1c2-4310-b623-63bb7b6518e0.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}>
+      <div className="absolute inset-0 bg-black/60" />
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto relative z-10">
         {/* Заголовок */}
         <div className="text-center mb-16">
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">
