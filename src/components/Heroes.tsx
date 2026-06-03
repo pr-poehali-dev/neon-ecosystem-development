@@ -1,4 +1,4 @@
-const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/5f766bd6-5907-4a82-9dac-793e8fdf6fe1.jpg";
+const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/22bec0e8-88ea-45eb-a0c9-50311598a2e8.jpg";
 
 const heroes = [
   {
