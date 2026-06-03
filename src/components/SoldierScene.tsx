@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 const BG_IMAGE =
-  "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/f4e0e718-b677-4ec9-bbd8-c84bbe0e3748.jpg";
+  "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/7fe9e19a-40b9-47dc-9969-b1281956ec89.jpg";
 
 export const SoldierScene = () => {
   const bgRef = useRef<HTMLDivElement>(null);
