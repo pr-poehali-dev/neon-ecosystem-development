@@ -34,7 +34,7 @@ const items = [
 export function Humanitarian() {
   return (
     <section id="help" className="relative py-24 px-4" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/6d9f3fbf-b9c2-4d9c-9e93-2863a715ab7d.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}>
-      <div className="absolute inset-0 bg-black/88" />
+      <div className="absolute inset-0 bg-black/93" />
       {/* Декоративная полоса сверху */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
