@@ -28,9 +28,10 @@ export const SoldierScene = () => {
         className="absolute inset-0"
         style={{
           backgroundImage: `url(${BG_IMAGE})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center 30%",
-          transform: "scale(1.08)",
+          backgroundSize: "contain",
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+          transform: "scale(1.0)",
           transition: "transform 0.4s ease-out",
         }}
       />
