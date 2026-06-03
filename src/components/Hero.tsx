@@ -1,15 +1,15 @@
-import { GL } from "./gl";
+import { SoldierScene } from "./SoldierScene";
 import { Pill } from "./Pill";
 import { Button } from "./ui/button";
 import { useState } from "react";
 import { Header } from "./Header";
 
 export function Hero() {
-  const [hovering, setHovering] = useState(false);
+  const [hovering, setHovering] = useState(false); // used for button hover effects
 
   return (
     <div className="flex flex-col h-svh justify-between relative z-10">
-      <GL hovering={hovering} />
+      <SoldierScene />
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
