@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 const BG_IMAGE =
-  "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/d06b81cd-7fb5-479e-94cf-267b5ebe6212.jpg";
+  "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/9d6da63f-5a12-470b-8e18-a633d128af5a.jpg";
 
 export const SoldierScene = () => {
   const bgRef = useRef<HTMLDivElement>(null);
@@ -35,43 +35,7 @@ export const SoldierScene = () => {
         }}
       />
 
-      {/* Солнце */}
-      <div
-        className="absolute"
-        style={{
-          top: "8%",
-          right: "18%",
-          width: "90px",
-          height: "90px",
-          borderRadius: "50%",
-          background: "radial-gradient(circle, #fff9c4 0%, #ffe066 40%, #ffb300 70%, transparent 100%)",
-          boxShadow: "0 0 60px 30px rgba(255,210,50,0.45), 0 0 120px 60px rgba(255,180,0,0.2)",
-          animation: "sunPulse 4s ease-in-out infinite",
-        }}
-      />
-
-      {/* Лучи солнца */}
-      <div
-        className="absolute"
-        style={{
-          top: "8%",
-          right: "18%",
-          width: "90px",
-          height: "90px",
-          borderRadius: "50%",
-          background: "transparent",
-          boxShadow: "0 0 0 18px rgba(255,220,80,0.08), 0 0 0 36px rgba(255,210,50,0.05), 0 0 0 60px rgba(255,200,30,0.03)",
-          animation: "sunPulse 4s ease-in-out infinite",
-        }}
-      />
-
       {/* Тёмный оверлей для читаемости текста */}
-      <style>{`
-        @keyframes sunPulse {
-          0%, 100% { opacity: 0.9; transform: scale(1); }
-          50% { opacity: 1; transform: scale(1.06); }
-        }
-      `}</style>
       <div
         className="absolute inset-0"
         style={{
