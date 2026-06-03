@@ -224,7 +224,7 @@ export function Heroes() {
     <section
       id="heroes"
       className="relative pt-28 pb-24 px-4"
-      style={{ backgroundImage: `url(${BG})`, backgroundSize: "cover", backgroundPosition: "center" }}
+      style={{ backgroundImage: `url(${BG})`, backgroundSize: "cover", backgroundPosition: "center", zIndex: 0, isolation: "isolate" }}
     >
       <div className="absolute inset-0 bg-black/45" />
 

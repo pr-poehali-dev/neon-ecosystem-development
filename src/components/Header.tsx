@@ -2,7 +2,7 @@ import { MobileMenu } from "./MobileMenu";
 
 export const Header = () => {
   return (
-    <div className="fixed z-50 top-0 left-0 w-full bg-black/70 backdrop-blur-md border-b border-white/10">
+    <div className="fixed z-[100] top-0 left-0 w-full bg-black/70 backdrop-blur-md border-b border-white/10">
       {/* Верхняя строка — почта */}
       <div className="border-b border-white/10 py-1.5 hidden lg:block">
         <div className="container flex justify-end">
