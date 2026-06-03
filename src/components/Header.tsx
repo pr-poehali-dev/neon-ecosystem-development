@@ -3,7 +3,7 @@ import { MobileMenu } from "./MobileMenu";
 
 export const Header = () => {
   return (
-    <div className="fixed z-50 pt-8 md:pt-14 top-0 left-0 w-full">
+    <div className="fixed z-50 top-0 left-0 w-full bg-black/70 backdrop-blur-md border-b border-white/10 py-3">
       <header className="flex items-center justify-between container">
         <div />
         <nav className="flex max-lg:hidden absolute left-1/2 -translate-x-1/2 items-center justify-center gap-x-10">
