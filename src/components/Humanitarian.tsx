@@ -33,7 +33,7 @@ const items = [
 
 export function Humanitarian() {
   return (
-    <section id="help" className="relative py-24 px-4" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/d9a87fc3-e648-4d13-9643-9885aecc3e1d.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}>
+    <section id="help" className="relative py-24 px-4" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1fa0672c-8689-4120-b767-2e14c677b11e.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="absolute inset-0 bg-black/88" />
       {/* Декоративная полоса сверху */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
