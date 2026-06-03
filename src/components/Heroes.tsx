@@ -2,12 +2,12 @@ const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafa
 
 const heroes = [
   {
-    name: "Артемьев Сергей Витальевич",
-    years: "16.06.1990 — 16.05.2023",
-    rank: "Рядовой",
+    name: "Стогниенко Сергей Александрович",
+    years: "28.02.1976 — 11.05.2024",
+    rank: "Старший лейтенант, командир взвода штурмовой роты",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/36e0e141-7727-4037-84b2-06701d77f153.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c8fb5624-edcf-4eba-979b-d66d99fd4e4e.PNG",
   },
   {
     name: "Пронин Сергей Дмитриевич",
@@ -122,12 +122,12 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/07aac6ae-5caa-426a-bdff-faeb8e1b9ab8.PNG",
   },
   {
-    name: "Стогниенко Сергей Александрович",
-    years: "28.02.1976 — 11.05.2024",
-    rank: "Старший лейтенант, командир взвода штурмовой роты",
+    name: "Артемьев Сергей Витальевич",
+    years: "16.06.1990 — 16.05.2023",
+    rank: "Рядовой",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c8fb5624-edcf-4eba-979b-d66d99fd4e4e.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/36e0e141-7727-4037-84b2-06701d77f153.PNG",
   },
   {
     name: "Терсков Константин Александрович",
