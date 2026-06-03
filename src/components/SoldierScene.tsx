@@ -36,23 +36,6 @@ export const SoldierScene = () => {
         }}
       />
 
-      {/* Логотип на куртке женщины */}
-      <img
-        src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
-        alt="Логотип фонда"
-        className="absolute rounded-full"
-        style={{
-          width: "12%",
-          minWidth: "70px",
-          maxWidth: "120px",
-          bottom: "18%",
-          left: "58%",
-          opacity: 1,
-          filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.7))",
-          zIndex: 10,
-        }}
-      />
-
       {/* Тёмный оверлей для читаемости текста */}
       <div
         className="absolute inset-0"
