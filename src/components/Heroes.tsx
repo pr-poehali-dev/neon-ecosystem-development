@@ -1,4 +1,4 @@
-const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/626a0d29-f22f-4aa4-b11e-425e7a136947.jpg";
+const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/5f766bd6-5907-4a82-9dac-793e8fdf6fe1.jpg";
 
 const heroes = [
   { name: "Александр Иванов", years: "1998 — 2023", region: "Москва", description: "Любил семью, мечтал стать инженером. Навсегда в наших сердцах." },
