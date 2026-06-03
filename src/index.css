@@ -60,7 +60,7 @@
 
   html {
     @apply bg-background;
-    scroll-padding-top: 80px;
+    scroll-padding-top: 72px;
   }
 }
 

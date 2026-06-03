@@ -223,7 +223,7 @@ export function Heroes() {
   return (
     <section
       id="heroes"
-      className="relative py-24 px-4"
+      className="relative pt-28 pb-24 px-4"
       style={{ backgroundImage: `url(${BG})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
       <div className="absolute inset-0 bg-black/45" />
