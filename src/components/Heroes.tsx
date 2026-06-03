@@ -161,6 +161,30 @@ const heroes = [
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/270237f0-43f4-415c-b898-e9f0ecd79398.PNG",
   },
+  {
+    name: "Бодров Владислав Денисович",
+    years: "19.08.1999 — 19.11.2024",
+    rank: "Рядовой",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/68859464-5b36-4eb8-a92e-c6d7cc9006ee.PNG",
+  },
+  {
+    name: "Кудрин Андрей Юрьевич",
+    years: "23.07.1992 — 22.02.2024",
+    rank: "Гвардии рядовой",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3602e444-97e2-45c0-a262-b7f138e1c9f8.PNG",
+  },
+  {
+    name: "Безгузиков Алексей Леонидович",
+    years: "06.07.1978 — 03.05.2023",
+    rank: "Старший лейтенант, командир взвода",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/731782e7-e742-4be5-83e2-4623c66c6663.PNG",
+  },
 ];
 
 export function Heroes() {
