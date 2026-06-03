@@ -42,14 +42,14 @@ export const SoldierScene = () => {
         alt="Логотип фонда"
         className="absolute rounded-full"
         style={{
-          width: "7%",
-          minWidth: "48px",
-          maxWidth: "90px",
-          bottom: "22%",
-          left: "54%",
-          transform: "translateX(-50%)",
-          opacity: 0.92,
-          filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.5))",
+          width: "12%",
+          minWidth: "70px",
+          maxWidth: "120px",
+          bottom: "18%",
+          left: "58%",
+          opacity: 1,
+          filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.7))",
+          zIndex: 10,
         }}
       />
 
