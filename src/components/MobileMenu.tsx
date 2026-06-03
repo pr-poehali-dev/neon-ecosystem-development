@@ -14,7 +14,7 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
     { name: "О фонде", href: "#about" },
     { name: "Наши герои", href: "#heroes" },
     { name: "Помощь семьям", href: "#help" },
-    { name: "Поддержать", href: "#contact" },
+    { name: "Вступить в фонд", href: "#contact" },
   ];
 
   const handleLinkClick = () => {

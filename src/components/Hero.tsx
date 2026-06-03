@@ -29,7 +29,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Поддержать фонд]
+            [Вступить в фонд]
           </Button>
         </a>
         <a className="contents sm:hidden" href="#contact">
@@ -39,7 +39,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Поддержать фонд]
+            [Вступить в фонд]
           </Button>
         </a>
       </div>

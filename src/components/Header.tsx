@@ -17,7 +17,7 @@ export const Header = () => {
             { label: "О фонде", href: "#about" },
             { label: "Наши герои", href: "#heroes" },
             { label: "Помощь семьям", href: "#help" },
-            { label: "Поддержать", href: "#contact" },
+            { label: "Вступить в фонд", href: "#contact" },
           ].map((item) => (
             <a
               className="uppercase inline-block font-mono text-foreground/60 hover:text-foreground/100 duration-150 transition-colors ease-out"
