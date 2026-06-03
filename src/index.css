@@ -60,7 +60,7 @@
 
   html {
     @apply bg-background;
-    scroll-padding-top: 72px;
+    scroll-padding-top: 80px;
   }
 }
 
@@ -89,6 +89,10 @@
   .shadow-glow {
     box-shadow: 0 0 8px 2px var(--tw-shadow-color);
   }
+}
+
+section[id] {
+  scroll-margin-top: 80px;
 }
 
 #webgl {
