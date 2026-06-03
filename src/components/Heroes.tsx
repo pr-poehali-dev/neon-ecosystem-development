@@ -81,6 +81,46 @@ const heroes = [
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/2217ae56-3a61-43b4-a0be-bf9a392e8c94.PNG",
   },
+  {
+    name: "Коноплев Александр Игоревич",
+    years: "17.10.1986 — 12.05.2025",
+    rank: "Младший сержант",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/a8ea11e0-1664-4326-a445-0a5912da46b2.PNG",
+  },
+  {
+    name: "Корнилов Андрей Владимирович",
+    years: "06.12.1994 — 04.02.2025",
+    rank: "Гвардии ефрейтор",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/e8f7cc03-2593-471b-9733-c3722735c021.PNG",
+  },
+  {
+    name: "Котов Леонид Владимирович",
+    years: "02.09.2000 — 20.03.2023",
+    rank: "Лейтенант",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/fb8a74c6-bc19-4a64-8fde-5c6d86682899.PNG",
+  },
+  {
+    name: "Масуфранов Георгий Максимович",
+    years: "23.08.1996 — 17.04.2023",
+    rank: "Рядовой",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1e444834-ded5-427f-9215-7887e0a288ae.PNG",
+  },
+  {
+    name: "Смоляник Алексей Андреевич",
+    years: "13.08.1996 — 17.07.2024",
+    rank: "Младший сержант",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/07aac6ae-5caa-426a-bdff-faeb8e1b9ab8.PNG",
+  },
 ];
 
 export function Heroes() {
