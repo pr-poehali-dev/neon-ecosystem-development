@@ -234,11 +234,11 @@ export function Heroes() {
               )}
 
               <div className="p-6">
-                <h3 className="font-sentient text-xl text-white mb-1">{hero.name}</h3>
-                {hero.rank && <p className="font-mono text-xs text-white/50 uppercase tracking-wider mb-1">{hero.rank}</p>}
-                <p className="font-mono text-xs text-primary mb-1">{hero.years}</p>
-                {hero.region && <p className="font-mono text-xs text-foreground/40 uppercase tracking-wider mb-3">{hero.region}</p>}
-                {hero.description && <p className="font-mono text-sm text-foreground/60 leading-relaxed">{hero.description}</p>}
+                <h3 className="font-sentient text-2xl text-white mb-2">{hero.name}</h3>
+                {hero.rank && <p className="font-mono text-sm text-white/60 uppercase tracking-wider mb-2">{hero.rank}</p>}
+                <p className="font-mono text-base text-primary mb-2">{hero.years}</p>
+                {hero.region && <p className="font-mono text-sm text-foreground/50 uppercase tracking-wider mb-3">{hero.region}</p>}
+                {hero.description && <p className="font-mono text-base text-foreground/70 leading-relaxed">{hero.description}</p>}
               </div>
 
               <div className="absolute bottom-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
