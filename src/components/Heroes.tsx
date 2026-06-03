@@ -18,12 +18,12 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c8fb5624-edcf-4eba-979b-d66d99fd4e4e.PNG",
   },
   {
-    name: "Бурнашев Тимур Владимирович",
-    years: "10.12.1988 — 16.06.2024",
+    name: "Коноплев Александр Игоревич",
+    years: "17.10.1986 — 12.05.2025",
     rank: "Младший сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1da671ac-be8a-4b48-a2f8-ebde46df09aa.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/a8ea11e0-1664-4326-a445-0a5912da46b2.PNG",
   },
   {
     name: "Волков Константин Владимирович",
@@ -82,12 +82,12 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/2217ae56-3a61-43b4-a0be-bf9a392e8c94.PNG",
   },
   {
-    name: "Коноплев Александр Игоревич",
-    years: "17.10.1986 — 12.05.2025",
+    name: "Бурнашев Тимур Владимирович",
+    years: "10.12.1988 — 16.06.2024",
     rank: "Младший сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/a8ea11e0-1664-4326-a445-0a5912da46b2.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1da671ac-be8a-4b48-a2f8-ebde46df09aa.PNG",
   },
   {
     name: "Корнилов Андрей Владимирович",
