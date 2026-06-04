@@ -36,7 +36,7 @@ def handler(event: dict, context) -> dict:
             'body': json.dumps({'error': '\u0418\u043c\u044f \u0438 \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b'})
         }
 
-    smtp_password = os.environ['SMTP_PASSWORD']
+    smtp_password = os.environ['SMTP_PASSWORD_FPS']
     from_email = 'fps-kemerovo@yandex.ru'
     to_email = 'fps-kemerovo@yandex.ru'
 
