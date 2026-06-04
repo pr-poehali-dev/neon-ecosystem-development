@@ -12,8 +12,8 @@ export default function Index() {
       <Heroes />
       <Humanitarian />
       <Events />
-      <JoinForm />
       <Partners />
+      <JoinForm />
     </>
   );
 }
