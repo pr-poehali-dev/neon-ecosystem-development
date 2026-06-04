@@ -4,17 +4,8 @@ export const Header = () => {
   return (
     <div className="fixed z-[100] top-0 left-0 w-full">
       <header className="flex items-center justify-between container py-4">
-        <a href="/" className="flex items-center gap-3 group">
-          <img
-            src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3613ce3a-63be-4b21-8552-5a4ef505d6ff.png"
-            alt="Фонд погибших сыновей"
-            className="w-10 md:w-12 rounded-full opacity-90 group-hover:opacity-100 transition-opacity duration-200"
-          />
-          <img
-            src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3613ce3a-63be-4b21-8552-5a4ef505d6ff.png"
-            alt="Фонд погибших сыновей"
-            className="h-7 w-auto hidden sm:block opacity-30 group-hover:opacity-60 transition-opacity duration-200"
-          />
+        <a href="/" className="font-mono text-[11px] uppercase tracking-widest text-foreground/50 hover:text-foreground/80 transition-colors duration-200">
+          Фонд погибших сыновей
         </a>
 
         <nav className="flex max-lg:hidden absolute left-1/2 -translate-x-1/2 items-center gap-x-8">
