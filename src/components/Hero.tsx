@@ -13,13 +13,11 @@ export function Hero() {
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
-        <Pill className="mb-6">
-          <img
-            src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
-            alt="Фонд погибших сыновей"
-            className="h-5 w-auto opacity-50"
-          />
-        </Pill>
+        <img
+          src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
+          alt="Фонд погибших сыновей"
+          className="w-16 h-16 mx-auto mb-6 opacity-30"
+        />
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
           В память о тех, <br />
           кто не <i className="font-light">вернулся</i>
