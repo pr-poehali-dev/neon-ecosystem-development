@@ -280,13 +280,17 @@ export function Heroes() {
         </div>
 
         {/* Кнопка */}
-        <div className="text-center mt-14">
-          <p className="font-mono text-sm text-foreground/40 mb-6">
+        <div className="text-center mt-20 border border-white/10 rounded-2xl p-10 bg-white/[0.02]">
+          <div className="text-3xl mb-4">✦</div>
+          <p className="font-sentient text-2xl md:text-3xl text-white mb-3">
             Хотите увековечить память вашего сына?
+          </p>
+          <p className="font-mono text-sm text-foreground/50 max-w-md mx-auto mb-8">
+            Мы бережно сохраним его имя, фото и историю — чтобы о нём помнили всегда
           </p>
           <a
             href="#contact"
-            className="inline-block font-mono text-sm uppercase tracking-widest border border-white/20 hover:border-primary/60 text-foreground/70 hover:text-white px-8 py-3 rounded-full transition-all duration-300"
+            className="inline-block font-mono text-sm uppercase tracking-widest bg-primary/10 border border-primary/60 hover:bg-primary/20 hover:border-primary text-primary px-10 py-4 rounded-full transition-all duration-300"
           >
             [ Добавить героя ]
           </a>
