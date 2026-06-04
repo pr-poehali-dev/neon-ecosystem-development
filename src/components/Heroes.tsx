@@ -151,7 +151,7 @@ const heroes = [
     rank: "Младший сержант, командир отделения",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/56a57d5d-052a-4692-8921-7a0194ffeb72.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/e7e0d831-b048-4336-b2cb-94a50df5e9c9.jpg",
   },
   {
     name: "Русскин Антон Алексеевич",
@@ -175,7 +175,7 @@ const heroes = [
     rank: "Гвардии рядовой",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3602e444-97e2-45c0-a262-b7f138e1c9f8.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1b3a352a-26ba-479a-8172-3b21aab69401.jpg",
   },
   {
     name: "Безгузиков Алексей Леонидович",
@@ -207,7 +207,7 @@ const heroes = [
     rank: "Рядовой, командир отделения",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/755bf00b-2b8d-4b3b-aad9-da92c5af5541.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1a5f3f31-5c2c-4c3f-8b38-8a782bd8fa38.jpg",
   },
   {
     name: "Шапран Алексей Александрович",
@@ -215,7 +215,7 @@ const heroes = [
     rank: "Младший сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/cf75b8d2-1c2b-48f1-96ae-fc0f03d9f598.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/8a5862ab-84d8-4c12-a899-eee7c16bb15c.jpg",
   },
 ];
 
