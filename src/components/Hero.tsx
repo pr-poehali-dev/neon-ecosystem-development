@@ -16,7 +16,7 @@ export function Hero() {
         <img
           src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
           alt="Фонд погибших сыновей"
-          className="w-16 h-16 mx-auto mb-6 opacity-30"
+          className="w-28 h-28 mx-auto mb-6 opacity-30 mix-blend-screen"
         />
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
           В память о тех, <br />
