@@ -4,9 +4,7 @@ export const Header = () => {
   return (
     <div className="fixed z-[100] top-0 left-0 w-full">
       <header className="flex items-center justify-between container py-4">
-        <a href="/" className="font-mono text-[11px] uppercase tracking-widest text-foreground/50 hover:text-foreground/80 transition-colors duration-200">
-          Фонд погибших сыновей
-        </a>
+        <a href="/" className="w-8" />
 
         <nav className="flex max-lg:hidden absolute left-1/2 -translate-x-1/2 items-center gap-x-8">
           {[
