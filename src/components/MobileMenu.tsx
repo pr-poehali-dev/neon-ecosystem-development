@@ -14,7 +14,7 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
     { name: "Наши герои", href: "#heroes" },
     { name: "Гуманитарная помощь", href: "#help" },
     { name: "Мероприятия", href: "#events" },
-    { name: "Вступить в фонд", href: "#contact" },
+    { name: "Партнёры", href: "#partners" },
   ];
 
   const handleLinkClick = () => {
@@ -26,20 +26,20 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
       <Dialog.Trigger asChild>
         <button
           className={cn(
-            "group lg:hidden p-2 text-foreground transition-colors",
+            "group lg:hidden p-2 text-foreground/60 hover:text-foreground transition-colors duration-200",
             className
           )}
           aria-label="Open menu"
         >
-          <Menu className="group-[[data-state=open]]:hidden" size={24} />
-          <X className="hidden group-[[data-state=open]]:block" size={24} />
+          <Menu className="group-[[data-state=open]]:hidden" size={22} />
+          <X className="hidden group-[[data-state=open]]:block" size={22} />
         </button>
       </Dialog.Trigger>
 
       <Dialog.Portal>
         <div
           data-overlay="true"
-          className="fixed z-30 inset-0 bg-black/50 backdrop-blur-sm"
+          className="fixed z-30 inset-0 bg-black/80 backdrop-blur-md"
         />
 
         <Dialog.Content
@@ -51,32 +51,32 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
               e.preventDefault();
             }
           }}
-          className="fixed top-0 left-0 w-full z-40 py-28 md:py-40"
+          className="fixed top-0 left-0 w-full z-40 pt-24 pb-12 px-6"
         >
           <Dialog.Title className="sr-only">Menu</Dialog.Title>
 
-          <nav className="flex flex-col space-y-6 container mx-auto">
+          <div className="w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent mb-10" />
+
+          <nav className="flex flex-col gap-y-1">
             {menuItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 onClick={handleLinkClick}
-                className="text-xl font-mono uppercase text-foreground/60 transition-colors ease-out duration-150 hover:text-foreground/100 py-2"
+                className="font-mono text-sm uppercase tracking-widest text-foreground/50 hover:text-foreground transition-colors duration-150 py-3 border-b border-white/5"
               >
                 {item.name}
               </a>
             ))}
-
-            <div className="mt-6">
-              <a
-                href="#sign-in"
-                onClick={handleLinkClick}
-                className="inline-block text-xl font-mono uppercase text-primary transition-colors ease-out duration-150 hover:text-primary/80 py-2"
-              >
-                Помочь
-              </a>
-            </div>
           </nav>
+
+          <a
+            href="#contact"
+            onClick={handleLinkClick}
+            className="inline-block mt-10 font-mono text-sm uppercase tracking-widest border border-primary/40 hover:border-primary text-primary hover:bg-primary/10 px-7 py-3 rounded-full transition-all duration-200"
+          >
+            Вступить в фонд
+          </a>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
