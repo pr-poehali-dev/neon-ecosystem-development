@@ -252,11 +252,12 @@ export function Heroes() {
             >
               {/* Фото или заглушка */}
               {hero.photo ? (
-                <div className="w-full">
+                <div className="w-full overflow-hidden">
                   <img
                     src={hero.photo}
                     alt={hero.name}
-                    className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500 mix-blend-screen"
+                    className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                    style={{ filter: "contrast(1.08) saturate(1.1) brightness(1.05)" }}
                   />
                 </div>
               ) : (
