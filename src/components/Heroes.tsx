@@ -15,7 +15,7 @@ const heroes = [
     rank: "Старший лейтенант, командир взвода штурмовой роты",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/c8fb5624-edcf-4eba-979b-d66d99fd4e4e.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/8456327d-c761-44ff-85e3-56b00eb0e439.jpg",
   },
   {
     name: "Коноплев Александр Игоревич",
@@ -47,7 +47,7 @@ const heroes = [
     rank: "Младший сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/07aac6ae-5caa-426a-bdff-faeb8e1b9ab8.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/b7b419bf-c5f0-4402-a80b-33dd326a56ef.jpg",
   },
   {
     name: "Киклевич Роман Максимович",
@@ -79,7 +79,7 @@ const heroes = [
     rank: "Сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/2217ae56-3a61-43b4-a0be-bf9a392e8c94.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/92b4d717-6d4b-4a9f-9e84-1a01f52f714f.jpg",
   },
   {
     name: "Бурнашев Тимур Владимирович",
@@ -87,7 +87,7 @@ const heroes = [
     rank: "Младший сержант",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1da671ac-be8a-4b48-a2f8-ebde46df09aa.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/97e983f5-8b9d-4b99-a3f1-1bf352853e15.jpg",
   },
   {
     name: "Корнилов Андрей Владимирович",
@@ -143,7 +143,7 @@ const heroes = [
     rank: "Гвардии рядовой",
     region: "",
     description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/084fe638-1997-42da-aa7b-fc51f3d08295.PNG",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/bebdf1db-394c-4910-9d3d-acf68aa87012.jpg",
   },
   {
     name: "Бромат Денис Игоревич",
