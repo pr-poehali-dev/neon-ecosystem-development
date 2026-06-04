@@ -256,7 +256,7 @@ export function Heroes() {
                   <img
                     src={hero.photo}
                     alt={hero.name}
-                    className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500 mix-blend-luminosity"
                   />
                 </div>
               ) : (
