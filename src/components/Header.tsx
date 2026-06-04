@@ -6,12 +6,12 @@ export const Header = () => {
       <header className="flex items-center justify-between container py-4">
         <a href="/" className="flex items-center gap-3 group">
           <img
-            src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
+            src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3613ce3a-63be-4b21-8552-5a4ef505d6ff.png"
             alt="Фонд погибших сыновей"
             className="w-10 md:w-12 rounded-full opacity-90 group-hover:opacity-100 transition-opacity duration-200"
           />
           <img
-            src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
+            src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3613ce3a-63be-4b21-8552-5a4ef505d6ff.png"
             alt="Фонд погибших сыновей"
             className="h-7 w-auto hidden sm:block opacity-30 group-hover:opacity-60 transition-opacity duration-200"
           />

@@ -14,7 +14,7 @@ export function Hero() {
 
       <div className="pb-16 mt-auto text-center relative">
         <img
-          src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38120509-4798-4475-9698-aeb7488a62f4.PNG"
+          src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3613ce3a-63be-4b21-8552-5a4ef505d6ff.png"
           alt="Фонд погибших сыновей"
           className="w-28 h-28 mx-auto mb-6 opacity-30 mix-blend-screen"
         />
