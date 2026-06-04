@@ -12,12 +12,13 @@ export function Hero() {
       <SoldierScene />
       <Header />
 
+      <img
+        src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3613ce3a-63be-4b21-8552-5a4ef505d6ff.png"
+        alt="Фонд погибших сыновей"
+        className="absolute left-6 md:left-12 top-1/3 -translate-y-1/2 w-36 md:w-48 opacity-45 mix-blend-screen pointer-events-none"
+      />
+
       <div className="pb-16 mt-auto text-center relative">
-        <img
-          src="https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/3613ce3a-63be-4b21-8552-5a4ef505d6ff.png"
-          alt="Фонд погибших сыновей"
-          className="w-28 h-28 mx-auto mb-6 opacity-30 mix-blend-screen"
-        />
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
           В память о тех, <br />
           кто не <i className="font-light">вернулся</i>
