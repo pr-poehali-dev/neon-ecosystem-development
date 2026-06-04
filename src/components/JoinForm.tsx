@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/806cc9f8-62c6-4709-a2be-818e3d1de1db.jpg";
 
 export function JoinForm() {
   const [sent, setSent] = useState(false);
+  const [photos, setPhotos] = useState<File[]>([]);
+  const fileRef = useRef<HTMLInputElement>(null);
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -17,6 +19,16 @@ export function JoinForm() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+  const handlePhotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files) {
+      setPhotos(Array.from(e.target.files).slice(0, 5));
+    }
+  };
+
+  const removePhoto = (i: number) => {
+    setPhotos(photos.filter((_, idx) => idx !== i));
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const message = [
@@ -24,12 +36,24 @@ export function JoinForm() {
       form.sonName ? `Имя сына: ${form.sonName}` : '',
       form.sonYears ? `Годы жизни: ${form.sonYears}` : '',
       form.story ? `О сыне: ${form.story}` : '',
+      photos.length ? `Фото: ${photos.map(f => f.name).join(', ')}` : '',
     ].filter(Boolean).join('\n');
+
+    const toBase64 = (file: File): Promise<string> =>
+      new Promise((res) => {
+        const r = new FileReader();
+        r.onload = () => res((r.result as string).split(',')[1]);
+        r.readAsDataURL(file);
+      });
+
+    const attachments = await Promise.all(
+      photos.map(async (f) => ({ name: f.name, type: f.type, data: await toBase64(f) }))
+    );
 
     await fetch("https://functions.poehali.dev/da808dee-cdc4-49c7-9b65-7504f64ddd4d", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name: form.name, phone: form.phone, message, subject: "Вступить в фонд" }),
+      body: JSON.stringify({ name: form.name, phone: form.phone, message, subject: "Вступить в фонд", attachments }),
     });
     setSent(true);
   };
@@ -145,6 +169,42 @@ export function JoinForm() {
                   placeholder="Расскажите о вашем сыне — каким он был, чем жил, что любил..."
                   className="w-full bg-white/5 border border-white/15 rounded-lg px-4 py-3 text-white font-mono text-sm placeholder:text-foreground/30 focus:outline-none focus:border-primary/60 transition-colors resize-none"
                 />
+              </div>
+              <div className="mt-4">
+                <label className="font-mono text-xs text-foreground/50 uppercase tracking-wider block mb-2">Фото сына</label>
+                <input
+                  ref={fileRef}
+                  type="file"
+                  accept="image/*"
+                  multiple
+                  onChange={handlePhotoChange}
+                  className="hidden"
+                />
+                <button
+                  type="button"
+                  onClick={() => fileRef.current?.click()}
+                  className="w-full border border-dashed border-white/20 hover:border-primary/50 rounded-lg px-4 py-4 font-mono text-sm text-foreground/40 hover:text-foreground/70 transition-colors text-center"
+                >
+                  {photos.length === 0 ? "[ Прикрепить фото (до 5 файлов) ]" : `[ Добавить ещё ]`}
+                </button>
+                {photos.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    {photos.map((f, i) => (
+                      <div key={i} className="relative group">
+                        <img
+                          src={URL.createObjectURL(f)}
+                          alt={f.name}
+                          className="w-16 h-16 object-cover rounded-lg border border-white/10"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => removePhoto(i)}
+                          className="absolute -top-1.5 -right-1.5 w-5 h-5 bg-black border border-white/20 rounded-full text-white/60 hover:text-white text-xs flex items-center justify-center"
+                        >×</button>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
 

@@ -1,12 +1,14 @@
 import json
 import smtplib
 import os
+import base64
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.mime.image import MIMEImage
 
 
 def handler(event: dict, context) -> dict:
-    """Отправка заявки на почту kemerovo@yandex.ru"""
+    """Отправка заявки на почту kemerovo@yandex.ru с поддержкой вложений"""
 
     if event.get('httpMethod') == 'OPTIONS':
         return {
@@ -25,6 +27,7 @@ def handler(event: dict, context) -> dict:
     phone = body.get('phone', '').strip()
     message = body.get('message', '').strip()
     subject = body.get('subject', 'Новая заявка с сайта')
+    attachments = body.get('attachments', [])
 
     if not name or not phone:
         return {
@@ -41,14 +44,24 @@ def handler(event: dict, context) -> dict:
     <h2>{subject}</h2>
     <p><b>Имя:</b> {name}</p>
     <p><b>Телефон:</b> {phone}</p>
-    {'<p><b>Сообщение:</b> ' + message + '</p>' if message else ''}
+    {'<p><b>Сообщение:</b><br>' + message.replace(chr(10), '<br>') + '</p>' if message else ''}
     """
 
-    msg = MIMEMultipart('alternative')
+    msg = MIMEMultipart('mixed')
     msg['Subject'] = subject
     msg['From'] = from_email
     msg['To'] = to_email
     msg.attach(MIMEText(html, 'html', 'utf-8'))
+
+    for att in attachments:
+        try:
+            img_data = base64.b64decode(att['data'])
+            mime_type = att.get('type', 'image/jpeg').split('/')[-1]
+            img = MIMEImage(img_data, _subtype=mime_type)
+            img.add_header('Content-Disposition', 'attachment', filename=att.get('name', 'photo.jpg'))
+            msg.attach(img)
+        except Exception:
+            pass
 
     with smtplib.SMTP_SSL('smtp.yandex.ru', 465) as server:
         server.login(from_email, smtp_password)
