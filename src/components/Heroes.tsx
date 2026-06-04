@@ -231,13 +231,13 @@ export function Heroes() {
       <div className="container mx-auto relative z-10">
         {/* Заголовок */}
         <div className="text-center mb-16">
-          <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">
+          <p className="font-mono text-base uppercase tracking-[0.3em] text-primary mb-4">
             Помним каждого
           </p>
           <h2 className="text-4xl md:text-5xl font-sentient text-white mb-4">
             Наши <i className="font-light">герои</i>
           </h2>
-          <p className="font-mono text-sm text-foreground/55 max-w-md mx-auto">
+          <p className="font-mono text-base md:text-lg text-foreground/55 max-w-xl mx-auto">
             Они ушли, но остаются живыми в сердцах своих мам,
             семей и всех, кто их знал
           </p>
