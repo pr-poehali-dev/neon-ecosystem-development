@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { ApplicationModal } from "./ApplicationModal";
+
 const BG = "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/22bec0e8-88ea-45eb-a0c9-50311598a2e8.jpg";
 
 const heroes = [
@@ -220,7 +223,11 @@ const heroes = [
 ];
 
 export function Heroes() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
+    <>
+    <ApplicationModal open={modalOpen} onClose={() => setModalOpen(false)} subject="Добавить героя" />
     <section
       id="heroes"
       className="relative pt-28 pb-24 px-4"
@@ -288,14 +295,15 @@ export function Heroes() {
           <p className="font-mono text-sm text-foreground/50 max-w-md mx-auto mb-8">
             Мы бережно сохраним его имя, фото и историю — чтобы о нём помнили всегда
           </p>
-          <a
-            href="#contact"
+          <button
+            onClick={() => setModalOpen(true)}
             className="inline-block font-mono text-sm uppercase tracking-widest bg-primary/10 border border-primary/60 hover:bg-primary/20 hover:border-primary text-primary px-10 py-4 rounded-full transition-all duration-300"
           >
             [ Добавить героя ]
-          </a>
+          </button>
         </div>
       </div>
     </section>
+    </>
   );
 }

@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { ApplicationModal } from "./ApplicationModal";
+
 const items = [
   {
     icon: "💊",
@@ -22,7 +25,11 @@ const items = [
 ];
 
 export function Humanitarian() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
+    <>
+    <ApplicationModal open={modalOpen} onClose={() => setModalOpen(false)} subject="Обратиться за помощью" />
     <section id="help" className="relative py-24 px-4" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/6d9f3fbf-b9c2-4d9c-9e93-2863a715ab7d.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="absolute inset-0" style={{ background: "rgba(0,0,0,0.93)" }} />
       {/* Декоративная полоса сверху */}
@@ -70,6 +77,7 @@ export function Humanitarian() {
           <a
             href="#contact"
             className="inline-block font-mono text-sm uppercase tracking-widest border border-primary/60 hover:bg-primary/10 text-white px-10 py-4 rounded-full transition-all duration-300"
+          onClick={() => setModalOpen(true)}
           >
             [ Обратиться за помощью ]
           </a>
@@ -79,5 +87,6 @@ export function Humanitarian() {
       {/* Декоративная полоса снизу */}
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
     </section>
+    </>
   );
 }

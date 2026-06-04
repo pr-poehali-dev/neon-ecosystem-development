@@ -17,8 +17,20 @@ export function JoinForm() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    const message = [
+      form.city ? `Город: ${form.city}` : '',
+      form.sonName ? `Имя сына: ${form.sonName}` : '',
+      form.sonYears ? `Годы жизни: ${form.sonYears}` : '',
+      form.story ? `О сыне: ${form.story}` : '',
+    ].filter(Boolean).join('\n');
+
+    await fetch("https://functions.poehali.dev/da808dee-cdc4-49c7-9b65-7504f64ddd4d", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: form.name, phone: form.phone, message, subject: "Вступить в фонд" }),
+    });
     setSent(true);
   };
 

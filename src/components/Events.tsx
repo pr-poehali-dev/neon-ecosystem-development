@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { ApplicationModal } from "./ApplicationModal";
+
 const events = [
   {
     date: "10 июня",
@@ -25,7 +28,11 @@ const typeColors: Record<string, string> = {
 };
 
 export function Events() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
+    <>
+    <ApplicationModal open={modalOpen} onClose={() => setModalOpen(false)} subject="Стать организатором мероприятия" />
     <section id="events" className="relative py-24 px-4" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/files/7819fe0a-b1c2-4310-b623-63bb7b6518e0.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}>
       <div className="absolute inset-0 bg-black/60" />
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
@@ -83,16 +90,17 @@ export function Events() {
             Если вы хотите организовать мероприятие памяти в вашем городе
             или присоединиться к существующим — свяжитесь с нами.
           </p>
-          <a
-            href="#contact"
+          <button
+            onClick={() => setModalOpen(true)}
             className="inline-block font-mono text-sm uppercase tracking-widest border border-primary/60 hover:bg-primary/10 text-white px-10 py-4 rounded-full transition-all duration-300"
           >
             [ Стать организатором ]
-          </a>
+          </button>
         </div>
       </div>
 
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
     </section>
+    </>
   );
 }
