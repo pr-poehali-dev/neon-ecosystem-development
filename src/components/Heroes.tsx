@@ -248,7 +248,7 @@ export function Heroes() {
           {heroes.map((hero) => (
             <div
               key={hero.name}
-              className="group relative border border-white/10 rounded-2xl overflow-hidden bg-black hover:bg-black transition-all duration-300 hover:border-white/25"
+              className="group relative border border-white/10 rounded-2xl overflow-hidden bg-black/40 backdrop-blur-sm hover:bg-black/60 transition-all duration-300 hover:border-white/25"
             >
               {/* Фото или заглушка */}
               {hero.photo ? (
