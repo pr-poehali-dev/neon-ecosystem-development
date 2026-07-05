@@ -204,6 +204,30 @@ const heroes = [
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/8a5862ab-84d8-4c12-a899-eee7c16bb15c.jpg",
   },
+  {
+    name: "Лаптев Федор Витальевич",
+    years: "11.04.1997 — 14.06.2025",
+    rank: "Гвардии рядовой",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/71130eee-26f1-490d-b266-bb09fc81f4a9.jpg",
+  },
+  {
+    name: "Шестаков Константин Николаевич",
+    years: "17.04.1977 — 25.02.2026",
+    rank: "Гвардии сержант",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/38596c38-94e9-4f83-99fd-d61e2b7d6176.jpg",
+  },
+  {
+    name: "Пономарев Виталий Сергеевич",
+    years: "15.04.2000 — 14.03.2022",
+    rank: "Ефрейтор",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/d488363c-bcd6-4b27-9b52-f4ee633d7d39.jpg",
+  },
 ];
 
 export function Heroes() {
