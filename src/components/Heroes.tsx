@@ -228,6 +228,14 @@ const heroes = [
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/d488363c-bcd6-4b27-9b52-f4ee633d7d39.jpg",
   },
+  {
+    name: "Мазур Владислав Вячеславович",
+    years: "30.06.2003 — 09.10.2024",
+    rank: "Рядовой",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/a2e39431-e064-4a17-a8d8-388f4d860451.jpg",
+  },
 ];
 
 export function Heroes() {
