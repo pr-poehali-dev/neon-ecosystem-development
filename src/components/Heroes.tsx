@@ -149,14 +149,6 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/bebdf1db-394c-4910-9d3d-acf68aa87012.jpg",
   },
   {
-    name: "Бромат Денис Игоревич",
-    years: "06.08.1988 — 02.01.2025",
-    rank: "Младший сержант, командир отделения",
-    region: "",
-    description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/e7e0d831-b048-4336-b2cb-94a50df5e9c9.jpg",
-  },
-  {
     name: "Русскин Антон Алексеевич",
     years: "11.05.2000 — 02.09.2025",
     rank: "Младший сержант",
@@ -171,14 +163,6 @@ const heroes = [
     region: "",
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/68859464-5b36-4eb8-a92e-c6d7cc9006ee.PNG",
-  },
-  {
-    name: "Кудрин Андрей Юрьевич",
-    years: "23.07.1992 — 22.02.2024",
-    rank: "Гвардии рядовой",
-    region: "",
-    description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/1b3a352a-26ba-479a-8172-3b21aab69401.jpg",
   },
   {
     name: "Безгузиков Алексей Леонидович",
