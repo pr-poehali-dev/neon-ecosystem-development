@@ -149,20 +149,20 @@ const heroes = [
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/bebdf1db-394c-4910-9d3d-acf68aa87012.jpg",
   },
   {
-    name: "Русскин Антон Алексеевич",
-    years: "11.05.2000 — 02.09.2025",
-    rank: "Младший сержант",
-    region: "",
-    description: "",
-    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/270237f0-43f4-415c-b898-e9f0ecd79398.PNG",
-  },
-  {
     name: "Бодров Владислав Денисович",
     years: "19.08.1999 — 19.11.2024",
     rank: "Рядовой",
     region: "",
     description: "",
     photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/68859464-5b36-4eb8-a92e-c6d7cc9006ee.PNG",
+  },
+  {
+    name: "Русскин Антон Алексеевич",
+    years: "11.05.2000 — 02.09.2025",
+    rank: "Младший сержант",
+    region: "",
+    description: "",
+    photo: "https://cdn.poehali.dev/projects/93aee465-1545-4568-8d99-56bb6cdfafaf/bucket/270237f0-43f4-415c-b898-e9f0ecd79398.PNG",
   },
   {
     name: "Безгузиков Алексей Леонидович",
